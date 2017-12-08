@@ -1,0 +1,56 @@
+.modal{
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 720px;
+  height: 594px;
+  overflow: auto;
+  background: #EEEEEE;
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+.modal input{
+  height: 25px;
+  width: 90%;
+  outline: none;
+}
+
+.modal-options-container{
+  width: 100%;
+}
+
+.modal-options-container input{
+  height: 25px;
+  width: 90%;
+  outline: none;
+}
+
+.modal-btn-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.btn{
+  margin-right: 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+#save-btn{
+  background: #59BD75;
+  height: 30px;
+  width: 100px;
+  font-family: Montserrat;
+}
+
+#cancel-btn{
+  background: #FFF;
+  font-family: Montserrat;
+}

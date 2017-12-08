@@ -1,20 +1,21 @@
 <html lang="en" ng-app="app">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TriviaTrends</title>
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="./components/modalComp/modalComp.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 
 <body>
-
+    <modal-comp></modal-comp>
     <ui-view></ui-view>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-
+    <script src="/components/app/app.js"></script>
+    <script src="/components/modalComp/modalComp.js"></script>
 </body>
 
 </html>
