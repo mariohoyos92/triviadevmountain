@@ -1,0 +1,19 @@
+<div class="question-container">
+    <div class="question-header">
+        <h3>{{cardCtrl.question.question}}</h3>
+        <div class="question-header-right">
+            <div>
+                <img class="gear" src="/components/questionCard/gear.svg" alt="gear">
+            </div>
+            <div>
+                {{cardCtrl.difficulty}}
+            </div>
+        </div>
+    </div>
+    <ul class="answers">
+        <li>{{cardCtrl.question.options[1]}}</li>
+        <li>{{cardCtrl.question.options[2]}}</li>
+        <li>{{cardCtrl.question.options[3]}}</li>
+        <li>{{cardCtrl.question.options[4]}}</li>
+    </ul>
+</div>

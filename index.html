@@ -5,16 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>TriviaTrends</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components/questionCard/questionCard.css" />
 
 </head>
 
-<body>
+<body class="container">
+    <card question="{ 
+        _id: 'idhere',
+        question: 'Who of the following is the dopest developer?',
+        animal: 'Dragon',
+        difficulty: 1,
+        options: {
+            1: 'Jack',
+            2: 'Zach',
+            3: 'Mario',
+            4: 'Eric'
+        },
+        correct_answer: 3
+    }" difficulty="'Easy'"></card>
 
-    <ui-view></ui-view>
+
+
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.js"></script>
+    <script src="./components/app/app.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-
+    <script src="./components/questionCard/questionCard.js"></script>
 </body>
 
 </html>
